@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+.venv312/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts (optional - remove if you want to commit trained models)
+*.keras
+*.h5
+saved_model/
+
+# Environment/secrets
+.env
